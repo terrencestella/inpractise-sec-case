@@ -1,0 +1,30 @@
+# Environment
+.env
+.env.*
+*.local
+
+# Dependencies / build
+__pycache__/
+.venv/
+venv/
+node_modules/
+dist/
+build/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Claude local
+CLAUDE.local.md
+
+# Runtime data (host mount) and edgartools cache
+data/
+.edgar_cache/
