@@ -11,6 +11,8 @@ docker compose up -d
 curl localhost:8000/health
 ```
 
+The image `ghcr.io/terrencestella/sec-annual-reports:latest` is public (no login needed) and published for both `linux/amd64` (x86 servers, Intel/AMD PCs) and `linux/arm64` (Apple Silicon Macs, ARM servers); Docker picks the right one automatically. Without registry access, `docker compose up -d --build` builds it locally.
+
 The image ships a validated 20-year backfill (`seed/reports.db`); on first start it is copied to the mounted `./data/reports.db`. An existing DB there is never overwritten.
 
 | env | default | meaning |
