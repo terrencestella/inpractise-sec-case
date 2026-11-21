@@ -9,7 +9,7 @@ authors = [
 requires-python = ">=3.12"
 dependencies = [
     "apscheduler>=3.10,<4",
-    "edgartools==6.1.0",
+    "edgartools==6.3.0",
     "fastapi>=0.162.7",
     "httpx>=0.28.1",
     "pandas>=3.1.1",
